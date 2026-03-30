@@ -19,23 +19,24 @@ This repository contains instructions for the Course Project assigned in Interme
 ## Project Description
 
 Your course project is a data journalism style report. 
-You will explore data on a topic of your choice and use the data science skills you've learned in this course to analyze the data.
+You will explore data on a topic of your choice using the data science skills you've learned in this course.
+Your data collection, analysis, and final report must be all reproducible. 
 The specific requirements for each section of your project are detailed below.
 
 ## Project Requirements (WIP)
 
-### Data Source
+### Data Source (WIP)
 
 Data used must be obtained via one of the following methods:
 
 - From a Web API using the [httr2](https://httr2.r-lib.org/) package
-      - [Open-Meteo](https://open-meteo.com/en/docs#api_documentation)
-      - [eBird](https://documenter.getpostman.com/view/664302/S1ENwy59)
-      - etc.
+    -   [Open-Meteo](https://open-meteo.com/en/docs#api_documentation)
+    -   [eBird](https://documenter.getpostman.com/view/664302/S1ENwy59)
+    -    etc.
 - From a Web API using an API-wrapping R package
-      - [geonames](https://docs.ropensci.org/geonames/)
-      - [rebird](https://docs.ropensci.org/rebird/)
-      - etc.
+    -   [geonames](https://docs.ropensci.org/geonames/)
+    -   [rebird](https://docs.ropensci.org/rebird/)
+    -   etc.
 - Scrapped from the web using the [rvest](https://rvest.tidyverse.org/) package
 - Other method (by approval only)
 
@@ -44,7 +45,7 @@ The code you write to collect your data will be included in your final submissio
 It should be inside of its own R script and *not* inside of your actual report qmd file. 
 
 
-### Data Analysis
+### Data Analysis (WIP)
 
 Must contain all of the following items
 
