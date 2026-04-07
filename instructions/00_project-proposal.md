@@ -2,7 +2,7 @@
 
 **Due: Monday, 04/06/26, 11:59 pm**
 
-A Google document that contains the following items:
+A Google document (single spaced, about 1 page) that contains the following items:
 
 1. **Project title**
     - Doesn’t need to be the final version of the title, just a working title for now
