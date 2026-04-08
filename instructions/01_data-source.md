@@ -8,7 +8,7 @@ A compressed R Project folder (.zip) that contains the following:
     -   R Script
     -   Contains all of your code for collecting your data from a web API or by web scraping
     -   The initial output of your data collection (data frame, list, etc.) should be saved as a .csv or .rds object inside of a folder called `data/`
-    -   Note: The only code in this script should be for the initial data collection. Please put any code for further data wrangling in your `01_data-source.qmd` document.
+    -   *Note: The only code in this script should be for the initial data collection. Please put any code for further data wrangling in your `01_data-source.qmd` document.*
 2.  `01_data-source.qmd`
     -   Quarto document
     -   Code for reading in the output of `00_get-data.R`
@@ -22,18 +22,18 @@ A compressed R Project folder (.zip) that contains the following:
             -   Name of the source
             -   Link to the website where the data came from
             -   Short description of what the data set is
-            -   Note: often the same data set can be found in many different places online. Provide the link to where YOU will be getting the data from for this project.
+            -   *Note: often the same data set can be found in many different places online. Provide the link to where YOU will be getting the data from for this project.*
         -   **Original source**
             -   Who originally collected the data?
             -   Link if you have one
-            -   Note: not necessarily the same as the data file source!
+            -   *Note: not necessarily the same as the data file source!*
         -   **Data collection process**
             -   How did you get this data? Web API, web scraping, something else?
             -   If from a Web API, did it require an API key?
             -   How did this step go? Was it straight-forward? Difficult? Surprising?
         -   **Initial format of collected data**
             -   Data frame? List? Something else?
-            -   Note: It should already be a data frame at this point.
+            -   *Note: It should already be a data frame at this point.*
         -   **Current unit of analysis**
             -   What does each row in the data file currently represent?
             -   You may want to or need to change this during your analysis, but aren’t required to.
