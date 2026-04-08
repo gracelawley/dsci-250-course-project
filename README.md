@@ -4,8 +4,8 @@ This repository contains instructions for the Course Project assigned in Interme
 
 ## Deadlines
 
-- [Project Proposal](instructions/00_project-proposal.md): Mon, 04/06/26, 11:59 pm
-- Data Source: Mon, 04/13/26, 11:59 pm
+- [Project Proposal](instructions/00_project-proposal.md): Mon, 04/06/26, 11:59 pm'
+- [Data Source](instructions/01_data-source.md): Mon, 04/13/26, 11:59 pm
 - Rough Draft: Mon, 04/20/26, 11:59 pm
 - Peer Review Reflection: Wed, 04/22/26, 11:59 pm
 - Final Draft: Wed, 04/29/26, 11:59 pm
