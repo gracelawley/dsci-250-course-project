@@ -71,12 +71,15 @@ Must contain all of the following items
 ### Written Portions
 
 Alongside your code chunks, please include written text.
-In general (but not all the time), each code chunk should be accompanied by some narration.
+In general, but not always, every code chunk should be accompanied by some narration.
+Please avoid having long sections of code without any narrative mixed in whenever possible.
+
+Some questions to consider when narrating code:
 
 *Why is this code included? What does it do? Why did you make choice X and Y?*
 
 Overall, your final document will be a mixture of code chunks and written text.
-When done successfully, a reader should be able to fully understand your project without any additional explanation guidance from you.
+When done successfully, a reader should be able to fully understand your project without any additional explanation or guidance from you.
 
 **General guidelines for written portions:**
 
