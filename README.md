@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: sentence
----
-
 # DSCI-250, Spring 26 - Course Project
 
 This repository contains instructions for the Course Project assigned in Intermediate Data Science (DSCI-250, Spring 2026) at Lewis & Clark College by Dr. Lawley.
