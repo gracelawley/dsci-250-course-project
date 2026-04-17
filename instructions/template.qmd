@@ -1,0 +1,115 @@
+---
+title: "Final Project Title"
+subtitle: "DSCI-250 - Final Project"
+author: "Your Name"
+format:
+  html:
+    toc: true
+    number-sections: true
+    self-contained: true
+    theme: flatly
+---
+
+```{r}
+#| message: false
+# load ALL of the packages you use in the very beginning code chunk
+library(dplyr)
+library(pdxTrees)
+```
+
+## Purpose
+
+In 2-3 paragraphs, describe the general topic/phenomenon you explore.
+Consider the following questions:
+
+-   Why should anyone be interested in this topic and your project?
+-   What do you hope people will learn from your project?
+
+You should be able to adapt much of the material you wrote for your Project Proposal for this section.
+
+## Data
+
+Over 2-3 paragraphs, describe:
+
+-   What data you used, where you found it, why you chose it over other options
+-   The process of getting it into R; was it easy? difficult?
+-   Any problems you encountered and how you solved them
+-   What was the original unit of analysis (you may have changed this during your data wrangling process, say what the original unit of analysis was here)
+-   Be sure to include any relevant links!
+
+You should be able to adapt much of the material you wrote for your Data Source for these sections.
+
+
+### Data Dictionary
+
+Give a brief description of each column in the dataset.
+If there are too many to realistically describe, only describe the subset of columns that were relevant to your project.
+If the column is a categorical variable with a limited set of values, say what those values are.
+
+-   `Species`: common name of tree
+-   `Condition`: condition of tree at time of inventory (`Dead`, `Fair`, `Poor`, `Good`)
+-   `Tree_Height`: height of tree in cm
+-   `...`
+
+### Data Processing
+
+This section should be a mixture of written text (narrative) and code.
+If it makes more sense to have this come before the data dictionary section, you can swap them.
+
+**For the narrative, describe what data processing you did. Consider:**
+
+-   The specific steps you took to wrangle your data
+-   Why you made certain choices
+-   Any columns you added or changed
+-   Any other data or information you joined to the original dataset
+-   Would what you're doing be obvious to someone else in the class? If not, explain it with code comments or narrative.
+-   If you unit of analysis if different than the original unit of analysis, say so here.
+-   Anything else that is relevant
+
+**Your code should:**
+
+-   Be neat and organized
+-   Include descriptive comments - but be careful not to over do it! See below for an example.
+
+```{r}
+# load in data set
+pdx_trees <- get_pdxTrees_parks()
+
+# create park-level summary
+pdx_parks <- pdx_trees |> 
+  group_by(Park) |> 
+  summarize(n_total = n(),
+            mean_height = mean(Tree_Height, na.rm = TRUE)) 
+
+# etc.
+```
+
+**In general, please avoid having long sections of code without any narrative mixed in.**
+
+## Analysis
+
+You can organize this section in any way that you'd like, but the main pieces you need to have are 1 table and 3 visualizations.
+
+Consider separating them into different sections.
+They should be ordered in a way that makes sense given the overall purpose of your project.
+They should NOT be ordered randomly.
+
+**For each of these 4 items, you must include:**
+
+-   The code that creates the plot or table
+    -   If there is some minor data wrangling that you did for just this one plot or table you can include it here. Otherwise, most of your data wrangling should be up in your data processing section.
+-   The resulting plot or table
+-   1-3 paragraphs describing the plot or table.
+    -   Why did you make it? Why this format compared to another format?
+    -   What does it communicate?
+    -   Does it show patterns that you were expecting or is it surprising?
+    -   Any other conclusions you can make from it
+
+## Reflection
+
+In 2-3 paragraphs, reflect on your findings and the project overall.
+Consider:
+
+-   Is there anything that you would have done differently?
+-   If you were to spend more time on this project, what would you like to do?
+-   Are there any limitations for your project or analysis? What are they? Why are they worth commenting on?
