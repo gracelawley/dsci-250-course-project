@@ -8,7 +8,9 @@ This repository contains instructions for the Course Project assigned in Interme
 -   [Data Source](instructions/01_data-source.md): Wed, 04/15/26, 11:59 pm
 -   [Rough Draft](instructions/02_rough-draft.md): Wed, 04/22/26, 9:00 am
 -   Peer Review Reflection: Wed, 04/22/26, 11:59 pm
--   [Final Draft](instructions/03_final-draft.md): Wed, 4/29/26, 11:59 pm
+-   [Final Draft](instructions/03_final-draft.md): Wed, 05/06/26, 11:59 pm
+-   Slides: Wed, 05/06/26, 11:59 pm
+
 
 ## Important Dates
 
