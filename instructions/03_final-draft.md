@@ -34,5 +34,3 @@ You can include more files than just these if they are part of your final submis
 -   All written text is coherent, free of typos and grammatical errors, and **written by you**.
     -   As a reminder, the AI-usage policy for this class applies to both code AND written text.
     -   To clarify, the write up is NOT a separate document. It should be mixed in with your code in your quarto document.
-
-## Grading (WIP)
